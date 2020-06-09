@@ -1,3 +1,8 @@
+#github & aws
+PROCESS-NAME,github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,amazonaws.com
+
 # OneDrive
 PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
