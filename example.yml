@@ -48,7 +48,7 @@ external-controller: '127.0.0.1:9090'
 # secret: ""
 
 clash-for-android:
-  ui-subtitle-pattern:香港
+  ui-subtitle-pattern:
 
 # 实验性功能
 experimental:
