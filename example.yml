@@ -48,7 +48,9 @@ external-controller: '127.0.0.1:9090'
 # secret: ""
 
 clash-for-android:
-  ui-subtitle-pattern: true
+  ui-subtitle-pattern:
+    - 香港
+    - aga
 # 实验性功能
 experimental:
   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
