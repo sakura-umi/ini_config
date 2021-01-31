@@ -1,16 +1,36 @@
-#github & aws
-PROCESS-NAME,github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,amazonaws.com
+#苹果微软tg的混合规则
+#苹果源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+#微软源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+#tg源：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 
-# OneDrive
-PROCESS-NAME,OneDrive
-PROCESS-NAME,OneDriveUpdater
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-KEYWORD,1drv
+# Apple
+# 一般国内Apple肯定正常,不需要开代理
+DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+IP-CIDR,192.35.50.0/24,no-resolve
+IP-CIDR,198.183.17.0/24,no-resolve
+IP-CIDR,205.180.175.0/24,no-resolve
+
 # Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
 # source: https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
@@ -89,36 +109,19 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
-# Apple
-# 一般国内Apple肯定正常,不需要开代理
-DOMAIN,apple.comscoreresearch.com
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
+
 # Telegram
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,91.108.56.0/23,no-resolve
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
-IP-CIDR,149.154.160.0/22,no-resolve
-IP-CIDR,149.154.164.0/22,no-resolve
-IP-CIDR,149.154.168.0/22,no-resolve
-IP-CIDR,149.154.172.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
