@@ -1,6 +1,7 @@
 # 内容：定制直连域名
 # 数量：
 DOMAIN-SUFFIX,api.steampowered.com
+DOMAIN-SUFFIX,steampipe.akamaized.net
 DOMAIN-SUFFIX,rpc.hentaiathome.net
 DOMAIN-SUFFIX,api-ipv4.ip.sb
 IP-CIDR,94.100.24.67/32
