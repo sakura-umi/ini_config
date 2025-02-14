@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,api.steampowered.com
 DOMAIN-SUFFIX,steampipe.akamaized.net
 DOMAIN-SUFFIX,rpc.hentaiathome.net
 DOMAIN-SUFFIX,api-ipv4.ip.sb
+DOMAIN-SUFFIX,deepseek.com
 IP-CIDR,94.100.24.67/32
 IP-CIDR,94.100.24.68/32
 IP-CIDR,94.100.24.69/32
